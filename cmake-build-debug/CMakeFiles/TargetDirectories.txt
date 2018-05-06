@@ -1,0 +1,7 @@
+/home/david/Dokumente/ADS/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/david/Dokumente/ADS/cmake-build-debug/CMakeFiles/Praktikum_2b.dir
+/home/david/Dokumente/ADS/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/david/Dokumente/ADS/cmake-build-debug/CMakeFiles/Praktikum_1a.dir
+/home/david/Dokumente/ADS/cmake-build-debug/CMakeFiles/Praktikum_1b.dir
+/home/david/Dokumente/ADS/cmake-build-debug/CMakeFiles/Praktikum_1c.dir
+/home/david/Dokumente/ADS/cmake-build-debug/CMakeFiles/Praktikum_2a.dir

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Praktikum_2b.dir/Praktikum_2b/Tree.cpp.o CMakeFiles/Praktikum_2b.dir/Praktikum_2b/TreeNode.cpp.o CMakeFiles/Praktikum_2b.dir/Praktikum_2b/main.cpp.o  -o Praktikum_2b 

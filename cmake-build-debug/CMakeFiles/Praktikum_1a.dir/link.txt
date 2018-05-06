@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Praktikum_1a.dir/Praktikum_1a/List.cpp.o CMakeFiles/Praktikum_1a.dir/Praktikum_1a/Node.cpp.o CMakeFiles/Praktikum_1a.dir/Praktikum_1a/main.cpp.o  -o Praktikum_1a 

@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/david/Dokumente/ADS/Praktikum_1a/List.cpp
+List.h
+/home/david/Dokumente/ADS/Praktikum_1a/List.h
+
+/home/david/Dokumente/ADS/Praktikum_1a/List.h
+Node.h
+/home/david/Dokumente/ADS/Praktikum_1a/Node.h
+string
+-
+iostream
+-
+
+/home/david/Dokumente/ADS/Praktikum_1a/Node.cpp
+Node.h
+/home/david/Dokumente/ADS/Praktikum_1a/Node.h
+
+/home/david/Dokumente/ADS/Praktikum_1a/Node.h
+
+/home/david/Dokumente/ADS/Praktikum_1a/main.cpp
+iostream
+-
+List.h
+/home/david/Dokumente/ADS/Praktikum_1a/List.h
+

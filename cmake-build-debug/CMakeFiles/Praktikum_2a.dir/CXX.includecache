@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/david/Dokumente/ADS/Praktikum_2a/RingNode.h
+string
+-
+
+/home/david/Dokumente/ADS/Praktikum_2a/Ringpuffer.cpp
+Ringpuffer.h
+/home/david/Dokumente/ADS/Praktikum_2a/Ringpuffer.h
+iostream
+-
+
+/home/david/Dokumente/ADS/Praktikum_2a/Ringpuffer.h
+RingNode.h
+/home/david/Dokumente/ADS/Praktikum_2a/RingNode.h
+
+/home/david/Dokumente/ADS/Praktikum_2a/main.cpp
+Ringpuffer.h
+/home/david/Dokumente/ADS/Praktikum_2a/Ringpuffer.h
+iostream
+-
+limits
+-
+

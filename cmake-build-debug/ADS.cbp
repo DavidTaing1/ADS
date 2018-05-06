@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ADS"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/david/Dokumente/ADS/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/david/Dokumente/ADS/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/david/Dokumente/ADS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/david/Dokumente/ADS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/david/Dokumente/ADS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/david/Dokumente/ADS/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/david/Dokumente/ADS/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/david/Dokumente/ADS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/david/Dokumente/ADS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/david/Dokumente/ADS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Praktikum_2b">
+				<Option output="/home/david/Dokumente/ADS/cmake-build-debug/Praktikum_2b" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/david/Dokumente/ADS/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/david/Dokumente/ADS/cmake-build-debug/Makefile&quot;  VERBOSE=1 Praktikum_2b"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/david/Dokumente/ADS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/david/Dokumente/ADS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/david/Dokumente/ADS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Praktikum_2b/fast">
+				<Option output="/home/david/Dokumente/ADS/cmake-build-debug/Praktikum_2b" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/david/Dokumente/ADS/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/david/Dokumente/ADS/cmake-build-debug/Makefile&quot;  VERBOSE=1 Praktikum_2b/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/david/Dokumente/ADS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/david/Dokumente/ADS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/david/Dokumente/ADS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/david/Dokumente/ADS/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/david/Dokumente/ADS/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/david/Dokumente/ADS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/david/Dokumente/ADS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/david/Dokumente/ADS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Praktikum_1a">
+				<Option output="/home/david/Dokumente/ADS/cmake-build-debug/Praktikum_1a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/david/Dokumente/ADS/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/david/Dokumente/ADS/cmake-build-debug/Makefile&quot;  VERBOSE=1 Praktikum_1a"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/david/Dokumente/ADS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/david/Dokumente/ADS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/david/Dokumente/ADS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Praktikum_1a/fast">
+				<Option output="/home/david/Dokumente/ADS/cmake-build-debug/Praktikum_1a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/david/Dokumente/ADS/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/david/Dokumente/ADS/cmake-build-debug/Makefile&quot;  VERBOSE=1 Praktikum_1a/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/david/Dokumente/ADS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/david/Dokumente/ADS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/david/Dokumente/ADS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Praktikum_1b">
+				<Option output="/home/david/Dokumente/ADS/cmake-build-debug/Praktikum_1b" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/david/Dokumente/ADS/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/david/Dokumente/ADS/cmake-build-debug/Makefile&quot;  VERBOSE=1 Praktikum_1b"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/david/Dokumente/ADS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/david/Dokumente/ADS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/david/Dokumente/ADS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Praktikum_1b/fast">
+				<Option output="/home/david/Dokumente/ADS/cmake-build-debug/Praktikum_1b" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/david/Dokumente/ADS/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/david/Dokumente/ADS/cmake-build-debug/Makefile&quot;  VERBOSE=1 Praktikum_1b/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/david/Dokumente/ADS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/david/Dokumente/ADS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/david/Dokumente/ADS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Praktikum_1c">
+				<Option output="/home/david/Dokumente/ADS/cmake-build-debug/Praktikum_1c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/david/Dokumente/ADS/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/david/Dokumente/ADS/cmake-build-debug/Makefile&quot;  VERBOSE=1 Praktikum_1c"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/david/Dokumente/ADS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/david/Dokumente/ADS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/david/Dokumente/ADS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Praktikum_1c/fast">
+				<Option output="/home/david/Dokumente/ADS/cmake-build-debug/Praktikum_1c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/david/Dokumente/ADS/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/david/Dokumente/ADS/cmake-build-debug/Makefile&quot;  VERBOSE=1 Praktikum_1c/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/david/Dokumente/ADS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/david/Dokumente/ADS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/david/Dokumente/ADS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Praktikum_2a">
+				<Option output="/home/david/Dokumente/ADS/cmake-build-debug/Praktikum_2a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/david/Dokumente/ADS/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/david/Dokumente/ADS/cmake-build-debug/Makefile&quot;  VERBOSE=1 Praktikum_2a"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/david/Dokumente/ADS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/david/Dokumente/ADS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/david/Dokumente/ADS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Praktikum_2a/fast">
+				<Option output="/home/david/Dokumente/ADS/cmake-build-debug/Praktikum_2a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/david/Dokumente/ADS/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/david/Dokumente/ADS/cmake-build-debug/Makefile&quot;  VERBOSE=1 Praktikum_2a/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/david/Dokumente/ADS/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/david/Dokumente/ADS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/david/Dokumente/ADS/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/david/Dokumente/ADS/Praktikum_1a/List.cpp">
+			<Option target="Praktikum_1a"/>
+		</Unit>
+		<Unit filename="/home/david/Dokumente/ADS/Praktikum_1a/List.h">
+			<Option target="Praktikum_1a"/>
+		</Unit>
+		<Unit filename="/home/david/Dokumente/ADS/Praktikum_1a/Node.cpp">
+			<Option target="Praktikum_1a"/>
+		</Unit>
+		<Unit filename="/home/david/Dokumente/ADS/Praktikum_1a/Node.h">
+			<Option target="Praktikum_1a"/>
+		</Unit>
+		<Unit filename="/home/david/Dokumente/ADS/Praktikum_1a/main.cpp">
+			<Option target="Praktikum_1a"/>
+		</Unit>
+		<Unit filename="/home/david/Dokumente/ADS/Praktikum_1b/List.h">
+			<Option target="Praktikum_1b"/>
+		</Unit>
+		<Unit filename="/home/david/Dokumente/ADS/Praktikum_1b/Node.h">
+			<Option target="Praktikum_1b"/>
+		</Unit>
+		<Unit filename="/home/david/Dokumente/ADS/Praktikum_1b/main.cpp">
+			<Option target="Praktikum_1b"/>
+		</Unit>
+		<Unit filename="/home/david/Dokumente/ADS/Praktikum_1c/List.h">
+			<Option target="Praktikum_1c"/>
+		</Unit>
+		<Unit filename="/home/david/Dokumente/ADS/Praktikum_1c/Node.h">
+			<Option target="Praktikum_1c"/>
+		</Unit>
+		<Unit filename="/home/david/Dokumente/ADS/Praktikum_1c/main.cpp">
+			<Option target="Praktikum_1c"/>
+		</Unit>
+		<Unit filename="/home/david/Dokumente/ADS/Praktikum_1c/tweet.h">
+			<Option target="Praktikum_1c"/>
+		</Unit>
+		<Unit filename="/home/david/Dokumente/ADS/Praktikum_2a/RingNode.h">
+			<Option target="Praktikum_2a"/>
+		</Unit>
+		<Unit filename="/home/david/Dokumente/ADS/Praktikum_2a/Ringpuffer.cpp">
+			<Option target="Praktikum_2a"/>
+		</Unit>
+		<Unit filename="/home/david/Dokumente/ADS/Praktikum_2a/Ringpuffer.h">
+			<Option target="Praktikum_2a"/>
+		</Unit>
+		<Unit filename="/home/david/Dokumente/ADS/Praktikum_2a/main.cpp">
+			<Option target="Praktikum_2a"/>
+		</Unit>
+		<Unit filename="/home/david/Dokumente/ADS/Praktikum_2b/Tree.cpp">
+			<Option target="Praktikum_2b"/>
+		</Unit>
+		<Unit filename="/home/david/Dokumente/ADS/Praktikum_2b/Tree.h">
+			<Option target="Praktikum_2b"/>
+		</Unit>
+		<Unit filename="/home/david/Dokumente/ADS/Praktikum_2b/TreeNode.cpp">
+			<Option target="Praktikum_2b"/>
+		</Unit>
+		<Unit filename="/home/david/Dokumente/ADS/Praktikum_2b/TreeNode.h">
+			<Option target="Praktikum_2b"/>
+		</Unit>
+		<Unit filename="/home/david/Dokumente/ADS/Praktikum_2b/main.cpp">
+			<Option target="Praktikum_2b"/>
+		</Unit>
+		<Unit filename="/home/david/Dokumente/ADS/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
