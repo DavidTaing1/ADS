@@ -93,12 +93,11 @@ bool List::search(int key)
 }
 bool List::swap(int key1, int key2)
 {
-	Node *tmp1 = head, *tmp2 = head, *tmp3;
+	Node *tmp1 = head, *tmp2 = head, *tmp3 = new Node;
 	while (tmp1 != nullptr)
 	{
 		if (tmp1->key == key1)
 		{
-			tmp3 = tmp1;
 			break;
 		}
 		else if (tmp1 == tail && tmp1->key != key1) return false;
@@ -113,7 +112,9 @@ bool List::swap(int key1, int key2)
 		else if (tmp2 == tail && tmp2->key != key2) return false;
 		tmp2 = tmp2->next;
 	}
-	
+
+	tmp3->prev = tmp1->prev;
+	tmp3->next = tmp1->next;
 	tmp1->prev = tmp2->prev;
 	tmp1->next = tmp2->next;
 	tmp1->prev->next = tmp1;
@@ -122,7 +123,6 @@ bool List::swap(int key1, int key2)
 	tmp2->next = tmp3->next;
 	tmp2->prev->next = tmp2;
 	tmp2->next->prev = tmp2;
-	tmp3->~Node();
 	return true;
 }
 int List::size(void)
