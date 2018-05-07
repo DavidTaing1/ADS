@@ -174,9 +174,8 @@ void Tree::print(TreeNode* pAnker)
 void Tree::import()
 {
     std::ifstream userdata;
-    if(userdata.is_open()) return;
     std::string alter, einkommen, plz, name;
-    userdata.open("/home/david/CLionProjects/Praktikum_2b/ExportZielanalyse.csv", std::ios::in);
+    userdata.open("/home/david/Dokumente/ADS/Praktikum_2b/ExportZielanalyse.csv", std::ios::in);
     for(int i = 0; i < 8; i++)
     {
         getline(userdata, name, ';');
