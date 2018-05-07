@@ -17,3 +17,6 @@ add_executable(Praktikum_2a ${Praktikum_2a})
 
 file(GLOB Praktikum_2b "Praktikum_2b/*.h" "Praktikum_2b/*.cpp")
 add_executable(Praktikum_2b ${Praktikum_2b})
+
+file(GLOB Praktikum_3 "Praktikum_3/*.h" "Praktikum_3/*.cpp")
+add_executable(Praktikum_3 ${Praktikum_3})
