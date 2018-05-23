@@ -9,8 +9,14 @@ using namespace std;
 namespace MyAlgorithms
 {
     void QuickSort(vector<int> &arr, int left, int right);
-    void MergeSort(vector<int> &a, vector<int> &b, int low, int high);
+    void QuickMed(vector<int> &arr, int left, int right);
+    int QuickPart(vector<int> &arr, int left, int right);
+    void swap(vector<int> &arr, int swap1, int swap2);
+    void MergeSort(vector<int> &a, int low, int high);
+    void Merge(vector<int> &a, int low, int high);
     void HeapSort(vector<int> &a, int n);
+    void percDown(vector<int> &arr, int i, int n);
+    int leftChild(int i);
     void ShellSort(vector<int> &a, int n);
 
     //Matrix Multiplikation Column Major *

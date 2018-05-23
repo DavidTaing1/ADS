@@ -41,15 +41,14 @@ TreeNode* Tree::search(TreeNode *pAnker, int pPos)//rekursiv
 
 bool Tree::searchAndPrint(TreeNode* pAnker, std::string pName) //rekursiv
 {
-    bool found = false;
     if(pAnker->getLeft() != nullptr) searchAndPrint(pAnker->getLeft(), pName);
     if(pAnker->getRight() != nullptr) searchAndPrint(pAnker->getRight(), pName);
     if(pAnker->getName() == pName)
     {
         pAnker->printData();
-        found = true;
+        return true;
     }
-    return found;
+    return false;
 }
 
 void Tree::del(int pPos)
@@ -106,7 +105,6 @@ void Tree::del(int pPos)
                 tmp->getParent()->setLeft(nullptr);
             }
             delete tmp;
-            return;
         }
         else if(tmp->getRight() == nullptr)
         {
@@ -134,26 +132,30 @@ void Tree::del(int pPos)
             }
             tmp->getRight()->setParent(tmp->getParent());
             delete tmp;
-            return;
         }
         else
         {
             TreeNode* tmp2 = tmp->getRight();
-            tmp2->setParent(tmp->getParent());
             while(tmp2->getLeft() != nullptr) tmp2 = tmp2->getLeft();
-            tmp->getLeft()->setParent(tmp2);
             tmp2->setLeft(tmp->getLeft());
+            tmp2->setRight(tmp->getRight());
             if(tmp->getParent()->getNodePosID() < pPos)
             {
-                tmp->getParent()->setRight(tmp->getRight());
+                tmp->getParent()->setRight(tmp2);
             }
             else
             {
-                tmp->getParent()->setLeft(tmp->getRight());
+                tmp->getParent()->setLeft(tmp2);
             }
-            tmp->getRight()->setParent(tmp->getParent());
+            if(tmp2->getParent()->getNodePosID() < tmp->getNodePosID())
+            {
+                tmp2->getParent()->setRight(nullptr);
+            }
+            else
+            {
+                tmp2->getParent()->setLeft(nullptr);
+            }
             delete tmp;
-            return;
         }
     }
 }
@@ -175,8 +177,8 @@ void Tree::import()
 {
     std::ifstream userdata;
     std::string alter, einkommen, plz, name;
-    userdata.open("/home/david/Dokumente/ADS/Praktikum_2b/ExportZielanalyse.csv", std::ios::in);
-    for(int i = 0; i < 8; i++)
+    userdata.open("/home/david/Dokumente/ADS/Praktikum_2b/ExportZielanalyse_Fall3.csv", std::ios::in);
+    while(!userdata.eof())
     {
         getline(userdata, name, ';');
         getline(userdata, alter, ';');

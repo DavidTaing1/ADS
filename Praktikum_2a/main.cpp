@@ -36,12 +36,7 @@ int main()
                 cout << "---------------------------------------------------------------------------------\n";
                 cout << "+Nach welchen Daten soll gesucht werden?\n";
                 getline(cin, dataIn);
-                if(ring.search(dataIn) != nullptr)
-                {
-                    cout << "Gefunden in Backup: OldAge " << ring.search(dataIn)->getAge() << ", Beschreibung: ";
-                    cout << ring.search(dataIn)->getDescription() << ", Daten: " << ring.search(dataIn)->getData() << endl;
-                }
-                else cout << "Datensatz konnte nicht gefunden werden.\n";
+                ring.search(dataIn);
                 break;
             }
             case 3:

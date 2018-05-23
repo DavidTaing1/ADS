@@ -1,5 +1,6 @@
 #include "Ringpuffer.h"
 #include <iostream>
+#include <vector>
 
 void Ringpuffer::addNode(string pDescr, string pData)
 {
@@ -40,17 +41,38 @@ void Ringpuffer::incrAge()
     }
 }
 
-RingNode* Ringpuffer::search(string pData)
+vector<RingNode*> Ringpuffer::search2(string pData)
 {
-    if(Anker->getData() == pData) return Anker;
+    vector<RingNode*> result;
+    int i = 0;
+    if(Anker->getData() == pData) result[i] = Anker; i++;
+    RingNode* tmp = Anker->getNext();
+
+    for(;i < 6; i++)
+    {
+        if(tmp->getData() == pData) result[i] = tmp;
+        tmp = tmp->getNext();
+    }
+    return result;
+}
+
+void Ringpuffer::search(string pData)
+{
+    if(Anker->getData() == pData) cout << "Gefunden in Backup: OldAge " << Anker->getAge() << ", Beschreibung: ";
+    cout << Anker->getDescription() << ", Daten: " << Anker->getData() << endl;;
     RingNode* tmp = Anker->getNext();
     while(tmp != Anker)
     {
-        if(tmp->getData() == pData) return tmp;
+        if(tmp->getData() == pData) cout << "Gefunden in Backup: OldAge " << tmp->getAge() << ", Beschreibung: ";
+        cout << tmp->getDescription() << ", Daten: " << tmp->getData() << endl;;
         tmp = tmp->getNext();
     }
-    return nullptr;
 }
+
+
+
+
+
 
 void Ringpuffer::print(RingNode* pAnker)
 {

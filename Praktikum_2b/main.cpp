@@ -40,7 +40,7 @@ int main()
             case 2:
             {
                 char input;
-                cout << "Möchten Sie die Daten aus der Datei 'ExportZielanalyse.csv' importieren (j/n) ?";
+                cout << "Möchten Sie die Daten aus der Datei 'ExportZielanalyse_Fall3.csv' importieren (j/n) ? ";
                 cin >> input;
                 cin.ignore(100, '\n');
                 if(input == 'j') tree.import();
